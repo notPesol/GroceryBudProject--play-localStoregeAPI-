@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section-center{
+    width: 60%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.grocery-form{
+    margin-bottom: 0.5rem;
+}
+
+.grocery-form h3{
+    text-transform: capitalize;
+    margin: 0.5rem auto;
+}
+
+.grocery-container{
+    visibility: hidden;
+}
+
+.show-container{
+    visibility: visible;
+}
+
+.grocery-list{
+    margin-bottom: 0.5rem;
+}
+
+.grocery-item{
+    font-size: 1.2rem;
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-between;
+}
+
+.alert{
+    text-transform: capitalize;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.alert-danger{
+    background-color: #f74c4ce7;
+}
+
+.alert-success{
+    background-color: greenyellow;
+}
